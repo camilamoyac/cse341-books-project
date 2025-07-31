@@ -1,0 +1,31 @@
+{
+  "name": "cse341-books-project",
+  "version": "1.0.0",
+  "description": "Book API project for CSE341",
+  "homepage": "https://github.com/camilamoyac/cse341-books-project#readme",
+  "bugs": {
+    "url": "https://github.com/camilamoyac/cse341-books-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camilamoyac/cse341-books-project.git"
+  },
+  "license": "ISC",
+  "author": "Camila Moya",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "mongodb": "^6.17.0",
+    "nodemon": "^3.1.10",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
