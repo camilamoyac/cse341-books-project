@@ -5,10 +5,9 @@
     "description": "An API to create , update, delete and get books and authors from a MongoDB database.",
     "version": "1.0.0"
   },
-  "host": "https://cse341-books-project.onrender.com",
+  "host": "cse341-books-project.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {

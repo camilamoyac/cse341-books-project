@@ -5,7 +5,7 @@ const doc = {
         title: "Books API",
         description: "An API to create , update, delete and get books and authors from a MongoDB database."
     },
-    host: "https://cse341-books-project.onrender.com", //change when deploying to Render
+    host: "localhost:8080", //change when deploying to Render
     schemes: ["http", "https"]
 }
 
