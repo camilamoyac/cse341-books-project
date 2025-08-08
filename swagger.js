@@ -5,8 +5,10 @@ const doc = {
         title: "Books API",
         description: "An API to create , update, delete and get books and authors from a MongoDB database."
     },
-    host: "localhost:8080", //change when deploying to Render
-    schemes: ["http", "https"]
+    // host: "localhost:8080", //change when deploying to Render
+    host: "cse341-books-project.onrender.com",
+    // schemes: ["http", "https"]
+    schemes: "https"
 }
 
 const outputFile = "./swagger.json";
