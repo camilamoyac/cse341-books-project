@@ -31,8 +31,12 @@ app
     );
     next();
     })
-    .use(cors({ methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"]}))
-    .use(cors({ origin: "*"}))
+    .use(cors({
+        origin: "https://cse341-books-project.onrender.com",
+        methods: "GET,POST,PUT,DELETE, OPTIONS, PATCH",
+        credentials: true
+        }))
+    .set('trust proxy', 1)
     .use("/", require("./routes"));
 
     passport.use(new GitHubStrategy({
